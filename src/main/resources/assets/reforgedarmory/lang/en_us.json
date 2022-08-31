@@ -1,0 +1,25 @@
+{
+  "itemGroup.reforgedarmory": "Reforged Armory",
+
+  "item.reforgedarmory.wolf_helmet": "Wolf Helmet",
+  "item.reforgedarmory.wolf_chestplate": "Wolf Chestplate",
+  "item.reforgedarmory.wolf_leggings": "Wolf Leggings",
+  "item.reforgedarmory.wolf_boots": "Wolf Boots",
+
+  "item.reforgedarmory.bandit_helmet": "Bandit Helmet",
+  "item.reforgedarmory.bandit_chestplate": "Bandit Chestplate",
+  "item.reforgedarmory.bandit_leggings": "Bandit Leggings",
+  "item.reforgedarmory.bandit_boots": "Bandit Boots",
+
+  "item.reforgedarmory.pilot_helmet": "Pilot Helmet",
+  "item.reforgedarmory.pilot_chestplate": "Pilot Chestplate",
+  "item.reforgedarmory.pilot_leggings": "Pilot Leggings",
+  "item.reforgedarmory.pilot_boots": "Pilot Boots",
+
+  "item.reforgedarmory.explorer_helmet": "Explorer Helmet",
+  "item.reforgedarmory.explorer_chestplate": "Explorer Chestplate",
+  "item.reforgedarmory.explorer_leggings": "Explorer Leggings",
+  "item.reforgedarmory.explorer_boots": "Explorer Boots",
+
+  "item.reforgedarmory.claw": "Claw"
+}
