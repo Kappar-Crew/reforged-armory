@@ -1,6 +1,7 @@
 package com.purplik.reforgedarmory.common.item.weapon;
 
 import com.purplik.reforgedarmory.common.item.armor.WolfArmor;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.player.Player;
@@ -31,7 +32,6 @@ public class Claw extends SwordItem {
             } else if (!(offhand.getItem() instanceof ShieldItem)) {
                 player.heal(this.getDamage());
             }
-
         }
         return super.onLeftClickEntity(stack, player, entity);
     }
