@@ -1,3 +1,4 @@
+/*
 package com.purplik.reforgedarmory.common.block;
 
 import com.purplik.reforgedarmory.common.init.BlockInit;
@@ -77,3 +78,4 @@ public class AscendtionTableBlockEntity extends BlockEntity implements MenuProvi
         itemStackHandler.deserializeNBT(nbtTag.getCompound("inventory"));
     }
 }
+*/

@@ -2,6 +2,7 @@ package com.purplik.reforgedarmory.common.init;
 
 import com.purplik.reforgedarmory.ReforgedArmory;
 import com.purplik.reforgedarmory.common.item.armor.*;
+import com.purplik.reforgedarmory.common.item.weapon.BattleAxe;
 import com.purplik.reforgedarmory.common.item.weapon.Claw;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
@@ -61,5 +62,7 @@ public class ItemInit {
 
     // WEAPONS
 
-    public static final RegistryObject<Item> Claw = ITEM.register("claw", () -> new Claw(Tiers.IRON, 0, 6f, new Item.Properties().tab(ItemInit.CREATIVE_TAB)));
+    public static final RegistryObject<Item> CLAW = ITEM.register("claw", () -> new Claw(Tiers.IRON, 0, 6f, new Item.Properties().tab(ItemInit.CREATIVE_TAB)));
+
+    public static final RegistryObject<Item> BATTLE_AXE = ITEM.register("battle_axe", () -> new BattleAxe(Tiers.IRON, 7, -2.5f, new Item.Properties().tab(ItemInit.CREATIVE_TAB)));
 }

@@ -1,3 +1,4 @@
+/*
 package com.purplik.reforgedarmory.common.block;
 
 import net.minecraft.core.BlockPos;
@@ -17,7 +18,7 @@ import net.minecraftforge.network.NetworkHooks;
 
 import javax.annotation.Nullable;
 
-import static net.minecraft.world.level.block.BaseEntityBlock.createTickerHelper;
+//import static net.minecraft.world.level.block.BaseEntityBlock.createTickerHelper;
 
 public class AscendtionTable extends Block {
     public AscendtionTable(Properties p_49795_) {
@@ -53,5 +54,6 @@ public class AscendtionTable extends Block {
 
     public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level level, BlockState blockState, BlockEntityType<T> blockEntityType) {
         return createTickerHelper(blockEntityType, );
-    }
+
 }
+*/
